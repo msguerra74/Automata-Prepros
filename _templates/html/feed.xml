@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Website title</title>
+  <link rel="self" href="http://website.com/feed.xml" />
+  <link href="http://website.com/" />
+  <updated>2016-08-11T19:41:04-05:00</updated>
+  <id>http://website.com/</id>
+  <author>
+    <name>Owner Name</name>
+    <email>owner@email.com</email>
+  </author>
+</feed>
