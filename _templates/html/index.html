@@ -15,44 +15,106 @@
     <script>with(document.documentElement){className=className.replace(/\bno-js\b/,'js')}</script>
   </head>
   <body>
-    <a href="#content-container" class="skip-link show-on-focus">Skip to content</a>
-    <div class="header-container">
-      <header class="header" role="banner">
-        <div class="header-info">
-          <div class="header-title">
-            <h1><a href="http://website.com">Website title</a></h1>
-          </div>
-          <div class="header-description">
-            <p>This is the website tagline</p>
-          </div>
-        </div>
-      </header>
-      <nav class="nav" role="navigation">
-        <ul class="nav-menu" id="nav-menu">
-        </ul>
-      </nav>
-    </div>
-    <div class="nav-toggle">
-      <a href="#nav-menu">Menu</a>
-    </div>
-    <div class="feature">
-      <!-- Feature -->
-    </div>
-    <div class="content-container" id="content-container" tabindex="0">
-      <main class="main" role="main">
-        <article>
-          <!-- Content -->
-        </article>
-      </main>
-      <aside class="aside" role="complementary">
-        <!-- Aside -->
-      </aside>
-    </div>
-    <footer class="footer" role="contentinfo">
-      <div class="footer-info">
-        <p>&copy; <script>document.write(new Date().getFullYear());</script> <a href="http://website.com">Website title</a></p>
-      </div>
-    </footer>
+    <a href="#content-section" class="skip-link screen-reader-text">Skip to content</a>
+    <header class="header-section" role="banner">
+      <div class="header-top-nav-container">
+        <nav class="header-top-nav">
+          <ul class="header-top-nav-menu">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul><!-- /.header-top-nav-menu -->
+        </nav><!-- /.header-top-nav -->
+      </div><!-- /.header-top-nav-container -->
+      <div class="header-container">
+        <div class="header">
+          <div class="header-nav-toggle">
+            <a href="#header-nav-menu">Menu</a>
+          </div><!-- /.header-nav-toggle -->
+          <div class="header-info">
+            <div class="header-info-title">
+              <a href="#">Website Title</a>
+            </div><!-- /.header-info-title -->
+            <div class="header-info-description">
+              <p>Website description. Lorem ipsum dolor sit amet.</p>
+            </div><!-- /.header-info-description -->
+          </div><!-- /.header-info -->
+          <div class="header-modules">
+
+            <!-- header modules -->
+
+          </div><!-- /.header-modules -->
+        </div><!-- /.header -->
+      </div><!-- /.header-container -->
+      <div class="header-nav-container">
+        <nav class="header-nav" role="navigation">
+          <ul class="header-nav-menu" id="header-nav-menu">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+          </ul><!-- /.header-nav-menu -->
+        </nav><!-- /.header-nav -->
+      </div><!-- /.header-nav-container -->
+    </header><!-- /.header-section -->
+    <div class="feature-section">
+      <div class="feature-container">
+        <div class="feature">
+
+          <!-- feature -->
+
+        </div><!-- /.feature -->
+      </div><!-- /.feature-container -->
+    </div><!-- /.feature-section -->
+    <div class="content-section" id="content-section" tabindex="0">
+      <div class="content-container">
+        <div class="content">
+          <main class="main" role="main">
+            <article>
+
+              <!-- main content -->
+
+            </article>
+            <div class="main-modules">
+
+              <!-- main modules -->
+
+            </div><!-- /.main-modules -->
+          </main><!-- /.main -->
+          <aside class="aside" role="complementary">
+            <div class="aside-modules">
+
+              <!-- aside modules -->
+
+            </div><!-- /.aside-modules -->
+          </aside><!-- /.aside -->
+        </div><!-- /.content -->
+      </div><!-- /.content-container -->
+    </div><!-- /.content-section -->
+    <div class="module-section">
+      <div class="modules-container">
+        <div class="modules">
+
+          <!-- modules -->
+
+        </div><!-- /.modules -->
+      </div><!-- /.modules-container -->
+    </div><!-- /.modules-section -->
+    <footer class="footer-section" role="contentinfo">
+      <div class="footer-modules-container">
+        <div class="footer-modules">
+
+          <!-- footer modules -->
+
+        </div><!-- /.footer-modules -->
+      </div><!-- /.footer-modules-container -->
+      <div class="footer-container">
+        <div class="footer">
+          <p>&copy; <script>document.write(new Date().getFullYear());</script> <a href="http://website.com">Website title</a></p>
+        </div><!-- /.footer -->
+      </div><!-- /.footer-container -->
+    </footer><!-- /.footer-section -->
     <script src="assets/js/script.min.js"></script>
     <script>
       window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;ga('create','UA-xxxxxxxx-x','auto');ga('send','pageview')

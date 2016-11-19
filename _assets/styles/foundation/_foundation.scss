@@ -1,17 +1,18 @@
 // Foundation for Sites
 // --------------------
 // http://foundation.zurb.com/sites/docs/
-// Before importing and including Foundation components, run 'bower install'
+// Before importing/including Foundation components,
+// run 'npm install foundation-sites motion-ui' inside the '_assets' directory
 
-@import 'settings';
+@import 'foundation-settings';
 
-@import '../../bower_components/foundation-sites/scss/foundation';
-// @import '../../bower_components/motion-ui/src/motion-ui';
+@import '../../node_modules/foundation-sites/scss/foundation';
+// @import '../../node_modules/motion-ui/src/motion-ui';
 
-@include foundation-global-styles;
+// @include foundation-global-styles;
 // @include foundation-grid;
 // @include foundation-flex-grid;
-@include foundation-typography;
+// @include foundation-typography;
 // @include foundation-button;
 // @include foundation-forms;
 // @include foundation-range-input;

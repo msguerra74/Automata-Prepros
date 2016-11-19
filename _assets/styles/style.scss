@@ -4,15 +4,24 @@
 @charset 'utf-8';
 
 // Mixins
+// ------
 
 @import 'mixins/mixins';
 
 // Foundation for Sites
-// Before importing Foundation, run 'bower install'
+// --------------------
+// Before importing Foundation,
+// run 'npm install foundation-sites motion-ui' inside the '_assets' directory
 
 // @import 'foundation/foundation';
 
+// WordPress
+// ---------
+
+// @import 'wordpress/wordpress';
+
 // Styles
+// ------
 
 @import 'styles/1-base';
 @import 'styles/2-header';
