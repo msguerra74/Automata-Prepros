@@ -1,0 +1,45 @@
+/**
+ * Stylesheet
+ * ----------
+ */
+
+
+@charset 'utf-8';
+
+
+/**
+ * Mixins
+ * ------
+ */
+
+@import 'mixins/mixins';
+
+
+/**
+ * Foundation for Sites
+ * --------------------
+ * Before importing Foundation,
+ * run 'npm install foundation-sites motion-ui' inside the 'assets' directory
+ */
+
+// @import 'foundation/foundation';
+
+
+/**
+ * WordPress
+ * ---------
+ */
+
+// @import 'wordpress/wordpress';
+
+
+/**
+ * Styles
+ * ------
+ */
+
+@import 'styles/1-base';
+@import 'styles/2-header';
+@import 'styles/3-content';
+@import 'styles/4-footer';
+@import 'styles/5-shared';

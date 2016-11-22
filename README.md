@@ -19,8 +19,8 @@ Additionally, [Foundation](http://foundation.zurb.com) and [WordPress](https://w
 2. Download and install [Node.js](http://nodejs.org) if needed.
 3. Download and unzip [Automata-Prepros](https://github.com/msguerra74/Automata-Prepros/archive/master.zip) where you want it.
 4. From the command prompt, navigate to the `Automata-Prepros` folder and type the following commands:
-    - `cd _assets` and press Enter
-    - `npm install foundation-sites motion-ui` and press Enter
+    - `cd assets` and press Enter
+    - `npm install foundation-sites@6.2.4 motion-ui@1.2.2` and press Enter
 5. That's it, now you're ready to build your web project!
 
 ### Things To Note Before Using
@@ -42,7 +42,7 @@ WordPress theme files are located within the `_templates/wordpress` directory an
 
 - Modify the information in `style.css`
 - Modify the Developer comment at the top of the `header.php` file with your information, or remove if not needed.
-- Modify any Google Web Fonts used in the `functions.php` file, or remove that line if none are used.
+- Modify any Google Web Fonts used in the `functions.php` file, or comment that line out if none are used.
 - Replace the `screenshot.png` file with a screenshot of your finished theme.
 - Create a favicon to upload into the WordPress theme customizer.
 - For Google Analytics, install a [Google Analytics plugin](https://wordpress.org/plugins/google-analytics-for-wordpress/).
@@ -51,7 +51,7 @@ WordPress theme files are located within the `_templates/wordpress` directory an
 
 You can also create a custom project inside the root of the `Automata-Prepros` directory without the use of these templates.
 
-The `js` and `scss` files from within the `_assets` directory will be compiled into either the `assets/js` or the `assets/css` directory. Alternatively, you can remove the CSS and JS files provided and create custom `_assets` by configuring them to be compiled within Prepros.
+The `_scripts` and `_styles` files from within the `assets` directory will be compiled into either the `assets/js` or the `assets/css` directory. Alternatively, you can remove the CSS and JS files provided and create custom `assets` by configuring them to be compiled within Prepros.
 
 Finally, you can delete any unnecessary files or folders from within the `Automata-Prepros` directory.
 
@@ -61,7 +61,7 @@ That's all there is to it!
 
 - [Node.js](http://nodejs.org): JavaScript runtime platform used to install the following packages:
     - [Foundation](http://foundation.zurb.com): The most advanced responsive front-end framework in the world
-    - [jQuery](http://jquery.com): The Write Less, Do More, JavaScript Library
+        - [jQuery](http://jquery.com): The Write Less, Do More, JavaScript Library
     - [Motion UI](http://zurb.com/playground/motion-ui/): A Sass library for creating flexible CSS transitions and animations
 - [Prepros](https://prepros.io): Prepros is a tool to compile LESS, Sass, Compass, Stylus, Jade and much more with automatic CSS prefixing, It comes with built in server for cross browser testing. It runs on Windows, Mac OS X and Linux.
 

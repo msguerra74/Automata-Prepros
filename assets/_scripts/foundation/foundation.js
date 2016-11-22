@@ -1,9 +1,17 @@
-// Foundation for Sites
-// --------------------
-// http://foundation.zurb.com/sites/docs/
-// Before including the following scripts,
-// run 'npm install foundation-sites motion-ui' inside the '_assets' directory
-// Include the following scripts by replacing the '//' with '//@prepros-append'
+/**
+ * Foundation for Sites
+ * --------------------
+ * http://foundation.zurb.com/sites/docs/
+ */
+
+
+/**
+ * Foundation Components
+ * ---------------------
+ * Before including Foundation components,
+ * run 'npm install foundation-sites motion-ui' inside the 'assets' directory
+ * Include the following scripts by replacing the '//' with '//@prepros-prepend'
+ */
 
 // ../../node_modules/what-input/what-input.js
 // ../../node_modules/foundation-sites/js/foundation.core.js
@@ -35,6 +43,10 @@
 // ../../node_modules/foundation-sites/js/foundation.util.touch.js
 // ../../node_modules/foundation-sites/js/foundation.util.triggers.js
 
-// Instantiate Foundation
+
+/**
+ * Instantiate Foundation
+ * ----------------------
+ */
 
 jQuery(document).foundation();

@@ -1,13 +1,19 @@
-// Foundation for Sites
-// --------------------
-// http://foundation.zurb.com/sites/docs/
-// Before importing/including Foundation components,
-// run 'npm install foundation-sites motion-ui' inside the '_assets' directory
+/**
+ * Foundation for Sites
+ * --------------------
+ * http://foundation.zurb.com/sites/docs/
+ */
+
+
+/**
+ * Foundation Components
+ * ---------------------
+ * Before importing or including Foundation components,
+ * run 'npm install foundation-sites motion-ui' inside the 'assets' directory
+ */
 
 @import 'foundation-settings';
-
 @import '../../node_modules/foundation-sites/scss/foundation';
-// @import '../../node_modules/motion-ui/src/motion-ui';
 
 // @include foundation-global-styles;
 // @include foundation-grid;
@@ -50,6 +56,14 @@
 // @include foundation-visibility-classes;
 // @include foundation-float-classes;
 // @include foundation-flex-classes;
+
+
+/**
+ * Motion UI
+ * ---------
+ */
+
+// @import '../../node_modules/motion-ui/src/motion-ui';
 
 // @include motion-ui-transitions;
 // @include motion-ui-animations;
