@@ -11,7 +11,9 @@
       endif; ?>
       <div class="footer-container">
         <div class="footer">
-          <p><?php echo esc_html( '&copy; ' ), date( 'Y' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+          <div class="footer-info">
+            <p><?php echo esc_html( '&copy; ' ), date( 'Y' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+          </div><!-- /.footer-info -->
         </div><!-- /.footer -->
       </div><!-- /.footer-container -->
     </footer><!-- /.footer-section -->

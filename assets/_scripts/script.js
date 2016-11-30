@@ -30,8 +30,3 @@
  * -------
  */
 
-(function() {
-
-  // JavaScript / jQuery
-
-})();
