@@ -18,7 +18,7 @@
   display: block;
   margin-bottom: 1.5rem;
 
-  @media (min-width: 40em) {
+  @include breakpoint(medium) {
     float: right;
     margin: 0 0 1rem 1rem;
   }
@@ -28,7 +28,7 @@
   display: block;
   margin-bottom: 1.5rem;
 
-  @media (min-width: 40em) {
+  @include breakpoint(medium) {
     float: left;
     margin: 0 1rem 1rem 0;
   }
@@ -51,54 +51,54 @@
 .gallery-item {
   width: 100%;
 
-  @media (min-width: 40em) {
+  @include breakpoint(medium) {
     float: left;
   }
 
   .gallery-columns-2 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 50%;
     }
   }
 
   .gallery-columns-3 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 33.33%;
     }
   }
 
   .gallery-columns-4 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 25%;
     }
   }
 
   .gallery-columns-5 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 20%;
     }
   }
 
   .gallery-columns-6 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 16.66%;
     }
   }
 
   .gallery-columns-7 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 14.28%;
     }
   }
 
   .gallery-columns-8 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 12.5%;
     }
   }
 
   .gallery-columns-9 & {
-    @media (min-width: 40em) {
+    @include breakpoint(medium) {
       width: 11.11%;
     }
   }

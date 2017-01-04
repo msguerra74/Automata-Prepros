@@ -20,7 +20,7 @@ Additionally, [Foundation](http://foundation.zurb.com) and [WordPress](https://w
 3. Download and unzip [Automata-Prepros](https://github.com/msguerra74/Automata-Prepros/archive/master.zip) where you want it.
 4. From the command prompt, navigate to the `Automata-Prepros` folder and type the following commands:
     - `cd assets` and press Enter
-    - `npm install foundation-sites@6.2.4 motion-ui@1.2.2` and press Enter
+    - `npm install foundation-sites motion-ui` and press Enter
 5. That's it, now you're ready to build your web project!
 
 ### Things To Note Before Using
@@ -67,7 +67,7 @@ That's all there is to it!
 
 ## The MIT License (MIT)
 
-Copyright (c) 2016 Michael Guerra (Automata)
+Copyright (c) 2017 Michael Guerra (Automata Prepros)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

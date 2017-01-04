@@ -9,11 +9,9 @@ html {
   overflow-y: scroll;
 }
 
-@if variable-exists(primary-color) {
-  ::selection {
-    background: $primary-color;
-    text-shadow: none;
-  }
+::selection {
+  background: $primary-color;
+  text-shadow: none;
 }
 
 canvas {

@@ -10,7 +10,7 @@
     wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <a href="#content-section" class="skip-link screen-reader-text"><?php echo esc_html( 'Skip to content' ); ?></a>
+    <a href="#content-section" class="show-on-focus"><?php echo esc_html( 'Skip to content' ); ?></a>
     <header class="header-section" role="banner">
       <?php
       if ( has_nav_menu( 'header_top_nav_menu' ) ) : ?>

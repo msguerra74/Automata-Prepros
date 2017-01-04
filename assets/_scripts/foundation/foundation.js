@@ -14,7 +14,7 @@
  */
 
 // ../../node_modules/what-input/what-input.js
-// ../../node_modules/foundation-sites/js/foundation.core.js
+//@prepros-prepend ../../node_modules/foundation-sites/js/foundation.core.js
 // ../../node_modules/foundation-sites/js/foundation.abide.js
 // ../../node_modules/foundation-sites/js/foundation.accordion.js
 // ../../node_modules/foundation-sites/js/foundation.accordionMenu.js
