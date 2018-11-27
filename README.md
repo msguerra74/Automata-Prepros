@@ -1,3 +1,5 @@
+> **Notice:** Development on this project has been ended.
+
 # Automata Prepros
 
 ## Automated Website Preprocessor
