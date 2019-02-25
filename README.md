@@ -1,4 +1,4 @@
-> **Notice:** Development on this project has been ended.
+> **Notice:** Development on this project has ended.
 
 # Automata Prepros
 
